@@ -1,0 +1,10 @@
+na:
+  schedule:
+    sync:
+      enabled: true
+      cron: '*/10 * * * * *'
+    notify:
+      enabled: false
+      cron: '* */2 * * * *'
+    reader:
+      cron: '* */1 * * * *'

@@ -1,0 +1,23 @@
+logging:
+  level:
+    org.springframework.security: INFO
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+spring:
+  cloud:
+    inetutils:
+      ignoredInterfaces:
+        - docker0
+        - veth.*
+eureka:
+  instance:
+    preferIpAddress: false
+  client:
+    serviceUrl:
+      defaultZone: http://na-registry:8761/eureka/
+      
