@@ -9,6 +9,8 @@ hystrix:
           thread:
             timeoutInMilliseconds: 10000
 spring:
+  main:
+    banner-mode: "off"
   cloud:
     inetutils:
       ignoredInterfaces:
