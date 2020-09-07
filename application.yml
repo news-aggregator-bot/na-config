@@ -20,10 +20,6 @@ eureka:
   instance:
     preferIpAddress: false
   client:
-    # Server doesnot required to register it self hence set to false
-    registerWithEureka: false
-    # Server Does not required to fetch the registry it self
-    fetchRegistry: false
     serviceUrl:
       defaultZone: http://na-registry:8761/eureka/
       
