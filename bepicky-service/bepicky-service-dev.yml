@@ -4,7 +4,7 @@ na:
       enabled: true
       cron: '*/10 * * * * *'
     notify:
-      enabled: true
+      enabled: false
       cron: '0/10 * * * * *'
     webpagereader:
       cron: '0 */1 * * * *'
