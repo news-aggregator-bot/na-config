@@ -1,7 +1,7 @@
 na:
   schedule:
     sync:
-      enabled: true
+      enabled: false
       cron: '*/10 * * * * *'
     notify:
       enabled: false
