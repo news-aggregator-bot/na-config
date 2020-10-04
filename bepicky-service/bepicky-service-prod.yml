@@ -2,7 +2,7 @@ na:
   schedule:
     sync:
       enabled: true
-      cron: '*/2 * * * * *'
+      cron: '*/10 * * * * *'
     refresh-id:
       cron: '0 0 */1 * * *'
     notify:
