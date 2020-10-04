@@ -4,7 +4,7 @@ na:
       enabled: true
       cron: '*/1 * * * * *'
     refresh-id:
-      cron: '* */1 * * * *'
+      cron: '0 */1 * * * *'
     notify:
       enabled: false
       cron: '0/10 * * * * *'
