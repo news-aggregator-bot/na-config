@@ -6,7 +6,7 @@ na:
     refresh-id:
       cron: '0 */1 * * * *'
     notify:
-      enabled: false
+      enabled: true
       cron: '0/10 * * * * *'
     webpagereader:
       cron: '0 */1 * * * *'
