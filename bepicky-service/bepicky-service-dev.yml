@@ -1,12 +1,12 @@
 na:
   schedule:
     sync:
-      enabled: true
+      enabled: false
       cron: '*/10 * * * * *'
     refresh-id:
       cron: '0 */1 * * * *'
     notify:
-      enabled: true
+      enabled: false
       cron: '0/10 * * * * *'
     webpagereader:
       cron: '0 */1 * * * *'
