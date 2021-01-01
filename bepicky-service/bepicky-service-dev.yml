@@ -1,5 +1,7 @@
 na:
   schedule:
+    read:
+      cron: '*/10 * * * * *'
     sync:
       enabled: false
       cron: '*/10 * * * * *'
