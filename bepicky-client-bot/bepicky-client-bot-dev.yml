@@ -1,1 +1,3 @@
-xuy: na
+search:
+  news:
+    pageSize: 10
