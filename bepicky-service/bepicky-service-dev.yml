@@ -3,7 +3,7 @@ na:
     read:
       cron: '*/10 * * * * *'
     sync:
-      enabled: false
+      enabled: true
       cron: '*/10 * * * * *'
     refresh-id:
       cron: '0 */1 * * * *'
