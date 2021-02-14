@@ -1,6 +1,7 @@
 na:
   schedule:
     read:
+      enabled: true
       cron: '*/10 * * * * *'
       refresh-id: '0 0 */1 * * *'
     sync:
