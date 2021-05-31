@@ -13,5 +13,5 @@ na:
       cron: '0 */1 * * * *'
       timeout: 20
     archive:
-      cron: '0/10 * * * * *'
+      cron: '0 0 */1 * * *'
       months: 3
