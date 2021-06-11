@@ -1,4 +1,7 @@
 na:
+  reader:
+    tag:
+      limit: 50
   schedule:
     read:
       enabled: true
