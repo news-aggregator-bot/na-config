@@ -16,7 +16,7 @@ na:
       cron: '* */2 * * * *'
     webpagereader:
       cron: '0 0 */12 * * *'
-      timeout: 60
+      timeout: 10
     archive:
       cron: '0 0 0 */1 * *'
       months: 6
